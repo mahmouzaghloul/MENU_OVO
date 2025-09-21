@@ -1,0 +1,198 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:linear-gradient(20deg,#00800080,#000000e0),url("../mage/bg_img_body.jpeg");
+    overflow:hidden;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.perant
+{
+height:100vh;
+margin-left:15%;
+}
+.texts
+{
+height:50vh;
+display: flex;
+flex-direction: column;
+justify-content: end;
+}
+.texts span
+{
+  font-size: 17px;
+  font-weight: 500;
+  color: #f0f8ffe3;
+  
+}
+
+.text_1
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 1s ease-in-out;
+}
+.text_2
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 1.5s ease-in-out;
+}
+.text_3
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 2s ease-in-out;
+}
+.text_4
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 2.5s ease-in-out;
+}
+.text_5
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 3s ease-in-out;
+}
+.text_6
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 3.5s ease-in-out;
+}
+.text_7
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 4s ease-in-out;
+}
+.text_8
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 4.5s ease-in-out;
+}
+.faecbook
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 5s ease-in-out;
+}
+.whatsapp
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 5.5s ease-in-out;
+}
+.instegram
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 6s ease-in-out;
+}
+.telephon
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 6.5s ease-in-out;
+}
+.tiktok
+{
+    transition: all 1s ease-in-out;
+    animation: L_1 7s ease-in-out;
+}
+
+@keyframes L_1
+{
+    0%
+    {
+        transform: translatex(-5000px);
+    }
+    10%
+    {
+
+    }
+
+
+}
+
+.pr_botton
+{
+    transition: all 1s ease-in-out;
+    animation: b_1 7.5s ease-in-out;
+}
+@keyframes b_1
+{
+    0%
+    {
+        transform: translatey(5000px);
+    }
+    10%
+    {
+
+    }
+
+
+}
+
+
+
+ .perant_botton
+{
+    height: 50vh;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.links_icon
+{
+    display: flex;
+    padding-top: 10px;
+    gap:7px;
+}
+.faecbook,.whatsapp,.instegram,.telephon,.tiktok
+{
+    width:30px;
+    height:30px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to right,green,black);
+    border-radius: 10px;
+}
+/* mar_ عشان انا مدي للاب ليفت15% */
+.pr_botton
+{
+    margin-left:-18%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  
+}
+
+.botton
+{
+    margin-bottom:150px;
+    color: aliceblue;
+    background-image:linear-gradient(to right,green,black);
+    font-size: 18px;
+    width: 125px;
+    height:36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    text-decoration: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
